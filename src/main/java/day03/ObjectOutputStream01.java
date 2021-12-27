@@ -17,7 +17,7 @@ public class ObjectOutputStream01 {
             oi.writeChar('c');//char 到Character
            oi.writeDouble(9.5f);//double -Double
             oi.writeUTF("aa");//都实现了serializable
-            oi.writeObject(new Dog("旺财",10));
+            oi.writeObject(new Dog("旺财",10,"唱歌"));
             oi.close();
 
 
